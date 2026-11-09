@@ -896,6 +896,82 @@ footer {
 }
 
 
+/* CAMPS SONG SECTION */
+.camp-song {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.camp-song p {
+    max-width: 650px;
+    margin: 15px auto 25px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.song-btn {
+    display: inline-block;
+    background: #5b34f2;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+.song-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* PARTNERS SECTION */
+.partners-section {
+    padding: 60px 25px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.partners-section p {
+    color: #555;
+    margin: 10px auto 35px;
+    max-width: 650px;
+    line-height: 1.8;
+}
+
+.partners-grid {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.partners-grid img {
+    max-width: 170px;
+    max-height: 85px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .partners-grid {
+        gap: 25px;
+    }
+
+    .partners-grid img {
+        max-width: 120px;
+        max-height: 65px;
+    }
+}
+
+
 </style>
 </head>
 
@@ -917,33 +993,33 @@ footer {
 <!-- HERO (SLIDESHOW FIXED) -->
 <div class="hero" id="hero" style="background-image:url('cover1.jpeg')"></div><section class="announcements" id="announcements">
 
- <!-- <h2 class="section-title">Announcements</h2>
+  <h2 class="section-title">Announcements</h2>
 
    <div class="announcement-card">
 	
-    <div class="announcement-image" style="background-image:url('announcement1.jpeg')">
+    <div class="announcement-image" style="background-image:url('comm.jpeg')">
       <div class="announcement-badge">🔥 NEW</div>
     </div>
 
     <div class="announcement-content">
 <div class="announcement-tag">📢 ANNOUNCEMENT</div>
 
-      <h3>Sports Day - June's Community Meeting</h3>
+      <h3>Sports Day - November's Community Meeting</h3>
 
-      <p>Get ready for a high energy Sports Day packed with challenges, teamwork, and non stop fun. Don’t miss it!</p>
+      <p>Get ready for a high energy Tchoukball play day. Don’t miss it!</p>
 
       <!-- INFO ROW -->
-   <!--   <div class="announcement-info">
-        <span><img src="calendar.png" class="icon"> 6 June 2026</span>
+    <div class="announcement-info">
+        <span><img src="calendar.png" class="icon"> 27 November 2026</span>
         <span><img src="age.png" class="icon"> 18+</span>
-        <span><img src="money.png" class="icon"> 300 EGP</span>
-	<span><img src="location.png" class="icon"> Lycee El Horreya - Maadi</span>
-      </div> -->
+        <span><img src="money.png" class="icon"> 200 EGP</span>
+	<span><img src="location.png" class="icon"> Levels - Maadi</span>
+      </div> 
 
-   <!--  <button class="announcement-btn"
-  onclick="window.open('https://forms.gle/ZVV8PsAqd4ykH9PM7','_blank')">
+    <button class="announcement-btn"
+  onclick="window.open('https://forms.gle/QkMxXJBaxmQzR6n26','_blank')">
   Register Now ➜
-</button> -->
+</button> 
 
     </div> 
 
@@ -958,7 +1034,7 @@ footer {
 <!-- CAMP 1 -->
 <div class="camp-card">
   <div class="camp-image" style="background-image:url('camp1.jpeg')">
-    <div class="status open">OPEN NOW</div>
+    <div class="status open">COMPLETED</div>
     <div class="camp-title">Kids
   <span class="camp-location">
     <img src="location.png" class="icon"> Beit 6 October
@@ -976,8 +1052,8 @@ footer {
     <div class="info"><img src="money.png" class="icon"> 3,400 EGP</div>
 
        <button class="register-btn"
-      onclick="window.open('https://forms.gle/pBeM2VUAC3aiC2et9','_blank')">
-      Register Now ➜
+      onclick="window.open('https://www.instagram.com/reel/DcGwyFlIXXZ/?obrf=eXdtMWxtdmxyc2lj','_blank')">
+      Watch the recap ➜
     </button>
  
 <!-- <button class="waiting-btn" disabled>Coming Soon</button> -->
@@ -987,7 +1063,7 @@ footer {
 <!-- CAMP 2 -->
 <div class="camp-card">
   <div class="camp-image" style="background-image:url('camp2.jpeg')">
-    <div class="status open">OPEN NOW</div>
+    <div class="status open">COMPLETED</div>
     <div class="camp-title">Teens 1
 <span class="camp-location">
     <img src="location.png" class="icon"> Beit 6 October
@@ -1003,8 +1079,8 @@ footer {
     <div class="info"><img src="money.png" class="icon"> 4,000 EGP</div>
 
     <button class="register-btn"
-      onclick="window.open('https://forms.gle/6gXvRzruThoNMPht5','_blank')">
-      Register Now ➜
+      onclick="window.open('https://www.instagram.com/reel/Dba9plgIpXj/?srtk=MWxyOHo5M3RycjhqeQ==','_blank')">
+      Watch the recap ➜
     </button>
     
 <!-- 	<button class="waiting-btn" disabled>Coming Soon</button> -->
@@ -1014,7 +1090,7 @@ footer {
 <!-- CAMP 3 -->
 <div class="camp-card">
   <div class="camp-image" style="background-image:url('camp3.jpeg')">
-    <div class="status open">OPEN NOW</div>
+    <div class="status open">COMPLETED</div>
     <div class="camp-title">Teens 2
 <span class="camp-location">
     <img src="location.png" class="icon"> Beit 6 October
@@ -1031,8 +1107,8 @@ footer {
     <div class="info"><img src="money.png" class="icon"> 4,200 EGP</div>
 
    <button class="register-btn"
-      onclick="window.open('https://forms.gle/oPWCPATQ8nEUaQSH8','_blank')">
-      Register Now ➜
+      onclick="window.open('https://www.instagram.com/reel/DdB9edwITRl/?exln=dGxkY2N6NWc3anhz','_blank')">
+      Watch the recap ➜
    
    <!-- <button class="waiting-btn" disabled>Coming Soon</button>-->
     </button>
@@ -1043,7 +1119,7 @@ footer {
 
   <div class="camp-card">
     <div class="camp-image" style="background-image:url('adventure.jpeg')">
-      <div class="status open">OPEN</div>
+      <div class="status open">COMPLETED</div>
       <div class="camp-title">Adventure
 <span class="camp-location">
     <img src="location.png" class="icon"> Dahab - Abu Galoum
@@ -1059,15 +1135,15 @@ footer {
       </div>
       <div class="info"><img src="money.png" class="icon"> Price: 7200 - 7800</div>
         <button class="register-btn"
-      onclick="window.open('https://forms.gle/MHaUZdR3PUt7cALe9','_blank')">
-      Register Now ➜
+      onclick="window.open('https://www.instagram.com/reel/DeMpUCao_fm/?obrf=MjNiOXdrMXF0Ym9u','_blank')">
+      Watch the recap ➜
     </button>
     </div>
   </div>
 
   <div class="camp-card">
     <div class="camp-image" style="background-image:url('winter.jpeg')">
-      <div class="status coming">OPEN</div>
+      <div class="status coming">COMING SOON</div>
       <div class="camp-title">Winter
 <span class="camp-location">
     <img src="location.png" class="icon"> Stay Tuned
@@ -1076,7 +1152,7 @@ footer {
     </div>
 
     <div class="camp-content">
-      <div class="info"><img src="calendar.png" class="icon"> Date: TBA</div>
+      <div class="info"><img src="calendar.png" class="icon"> Date: Feb 18 - Feb 20</div>
       <div class="info age-row">
         <span><img src="age.png" class="icon"> Age: 19+</span>
   <!--<span class="small-countdown" data-date="2027-02-18T00:00:00"></span> -->
@@ -1088,6 +1164,69 @@ footer {
 
 </div>
 </section>
+
+
+<!-- CAMPS SONG -->
+<section class="camp-song">
+
+    <h2 class="section-title">
+        The Soundtrack of Our Summer
+    </h2>
+
+    <p>
+        Every camp season has a story, and every story has a song.
+        Relive the moments, memories and experiences
+        that made our 2026 camps special.
+    </p>
+
+    <a href="https://open.anghami.com/R3ERJRRWR7b"
+       target="_blank"
+       class="song-btn">
+        <img src="anghami.jpeg"
+             style="width:20px;height:20px;
+             vertical-align:middle;margin-right:8px;">
+        Listen to Our 2026 Camp Song →
+    </a>
+
+</section>
+
+
+<!-- PARTNERS & SPONSORS -->
+<section class="partners-section">
+
+    <h2 class="section-title">
+        Our Partners & Sponsors
+    </h2>
+
+    <p>
+        Making every experience possible.
+        Thank you to our partners and sponsors
+        for being part of our journey!
+    </p>
+
+    <div class="partners-grid">
+
+        <a href="https://www.instagram.com/drink.arise?cplk=MWdnd2VyMGZlazBnMQ==" target="_blank">
+            <img src="sponsor1.jpeg" alt="Sponsor 1">
+        </a>
+
+        <a href="https://www.instagram.com/puffster07?rpxt=MW1reHJ4NjhkN2luZg==" target="_blank">
+            <img src="sponsor2.jpeg" alt="Sponsor 2">
+        </a>
+
+        <a href="https://www.instagram.com/lokalegypt?psln=MXMya21tenZuMXZ2Zw==" target="_blank">
+            <img src="sponsor3.jpeg" alt="Sponsor 3">
+        </a>
+
+   	<a href="https://www.instagram.com/analogreformerpilates?vrfl=MXVhN3BzMGNzbXhxNQ==" target="_blank">
+            <img src="sponsor4.png" alt="Sponsor 3">
+        </a>
+
+    </div>
+
+</section>
+
+
 
 <section id="about">
   <div class="who-we-are">
